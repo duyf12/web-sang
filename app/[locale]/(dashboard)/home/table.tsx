@@ -61,7 +61,7 @@ export default function UserTable() {
       pagination={{
         current,
         pageSize,
-        total: result.data?.total,
+        total: (result.data as any)?.total,
         onChange(page, pageSize) {
           useStore.getState().setPagination(page, pageSize);
         },
