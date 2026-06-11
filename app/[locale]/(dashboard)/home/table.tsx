@@ -49,7 +49,8 @@ export default function UserTable() {
       bordered
       rowKey="id"
       loading={result.isFetching}
-      dataSource={result.data?.users}
+      // dataSource={result.data?.users}
+      dataSource={(result.data as any)?.users}
       columns={columns}
       rowSelection={{
         selectedRowKeys: selectedUserIds,
