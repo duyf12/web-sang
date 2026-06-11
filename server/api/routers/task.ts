@@ -4,6 +4,6 @@ import { createTRPCRouter, procedure } from "~/server/api/trpc";
 export const taskRouter = createTRPCRouter({
   getMany: procedure.query(async ({ ctx }) => {
     await sleep(1000);
-    return ctx.prisma.task.findMany();
+    return null
   }),
 });

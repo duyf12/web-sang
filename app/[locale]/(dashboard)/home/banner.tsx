@@ -5,7 +5,6 @@
 import React, { useEffect, useState } from "react";
 import { PlusCircleIcon, SearchIcon, TrashIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useStore } from "~/app/[locale]/(dashboard)/home/store";
 import { confirm } from "~/components/comfirm";
 import { Button } from "~/components/ui/button";
 import { toast } from "~/components/ui/use-toast";

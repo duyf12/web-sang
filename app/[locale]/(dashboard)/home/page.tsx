@@ -1,9 +1,6 @@
 /** @format */
 
 import { Metadata } from "next";
-import UserHeading from "~/app/[locale]/(dashboard)/home/heading";
-import UserTable from "~/app/[locale]/(dashboard)/home/table";
-import { UserForm } from "~/app/[locale]/(dashboard)/home/form";
 
 import Banner from "~/app/[locale]/(dashboard)/home/banner";
 import Intro from "~/app/[locale]/(dashboard)/home/intro";

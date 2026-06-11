@@ -4,7 +4,6 @@
 import React, { useEffect, useState } from "react";
 import { PlusCircleIcon, SearchIcon, TrashIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useStore } from "~/app/[locale]/(dashboard)/home/store";
 import { confirm } from "~/components/comfirm";
 import { Button } from "~/components/ui/button";
 import { toast } from "~/components/ui/use-toast";
@@ -57,7 +56,8 @@ export default function Banner() {
           <span className="text-[#5b9bd5] font-bold">
             <strong>
               <span>
-                . Clear coats, hardeners, thinners, putty, 1k binder, 2k binder{" "}
+                . Clear coats, hardeners, thinners, putty, 1k binder, 2k
+                binder{" "}
               </span>
             </strong>
           </span>

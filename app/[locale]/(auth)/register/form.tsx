@@ -9,7 +9,6 @@ import { Input } from "~/components/ui/input";
 import { toast } from "~/components/ui/use-toast";
 import LocaleSwitcher from "~/components/locale-switcher";
 import { api } from "~/lib/api/client";
-import { useStore } from "~/app/[locale]/(dashboard)/home/store";
 import Link from "next-intl/link";
 import { useRouter } from "next/navigation";
 

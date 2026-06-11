@@ -24,19 +24,8 @@ export const emailpassProvider = CredentialsProvider({
     await ldap.verifyUser(creds.email, creds.password);
 
     if (ldapFound) {
-      const found = await prisma.user.findFirst({
-        where: { email: creds.email },
-      });
-      
-      if (found) {
-        return {
-          admin: true,
-          id: found.id,
-          name: found.name,
-          image: found.image,
-          email: found.email,
-        };
-      }
+     
+     
       throw new Error(`Tài khoản không được quyền truy cập`);
     }
 
