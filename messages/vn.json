@@ -1,0 +1,71 @@
+{
+  "users": {
+    "email": "Tên đăng nhập",
+    "sign-in": "Đăng nhập ",
+    "filter": "Lọc",
+    "addUser": "Người dùng",
+    "manageUser": "Quản lý người dùng",
+    "table": {
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "detailTitle": "Xem chi tiết",
+      "nameTitle": "Tên",
+      "emailTitle": "E-mail",
+      "functionTitle": "Chức năng",
+      "confirmTitle": "Bạn có chắc muốn xóa người dùng này",
+      "confirmDescription": "Xóa dữ liệu người dùng"
+    },
+    "form": {
+      "idUser": "ID",
+      "createAt": "Ngày tạo",
+      "editUser": "Chỉnh sửa người dùng",
+      "editUserDescription": "Thực hiện thay đổi người dùng ở đây. Nhấp vào lưu khi bạn hoàn tất.",
+      "userView": "Chi tiết người dùng",
+      "userDescription": "Xem thông tin chi tiết người dùng.",
+      "title": "Nhập người dùng ở đây. Nhấn lưu khi hoàn thành",
+      "createUser": "Tạo người dùng",
+      "email": "E-mail",
+      "name": "Tên",
+      "password": "Mật khẩu",
+      "confirmPassword": "Nhập lại mật khẩu",
+      "saveChange": "Lưu thay đổi",
+      "success": "Thao tác thành công",
+      "addNewSuccess" : "Thêm mới thông tin người dùng thành công",
+      "updateSuccess": "Cập nhật thông tin người dùng thành công",
+      "errorTitle": "Thao tác lỗi"
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Thay đổi ngôn ngữ",
+    "locale": "{locale, select, vn {Tiếng Việt} en {English} other {Unknown}}"
+  },
+  "main-nav": {
+    "label": "Đặc trưng",
+    "roles": "Vai trò",
+    "users": "Người dùng",
+    "manageUser": "Quản lý người dùng",
+    "manageRole": "Vai trò quản lý"
+  },
+  "user-nav": {
+    "profile": "Hồ sơ",
+    "logOut": "Đăng xuât"
+  },
+  "mode-toggle": {
+    "themeToggle": "Chuyển chủ đề",
+    "lightTheme": "Sáng",
+    "darkTheme": "Tối"
+  },
+  "sign-in" : {
+    "aboutUs": "Về chúng tôi",
+    "sign-in": "Đăng nhập",
+    "register": "Đăng ký",
+    "email":"E-mail",
+    "password": "Mật khẩu",
+    "rememberPassword": "Nhớ mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "orLogin": "Hoặc đăng nhập với",
+    "notAccount": "Bạn chưa có tài khoản?",
+    "anAccount": "Bạn đã có tài khoản?",
+    "warning": "Đã xảy ra sự cố!"
+  }
+}
